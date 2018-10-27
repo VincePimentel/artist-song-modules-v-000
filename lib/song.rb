@@ -2,7 +2,7 @@ require 'pry'
 # require_relative './concerns/memorable.rb'
 
 class Song
-  extend Memorable, Findable, Paramble
+  extend Memorable, Findable, Paramable
 
   attr_accessor :name
   attr_reader :artist
